@@ -1,0 +1,48 @@
+section.portfoio {
+  margin: 50px 0;
+
+  h2 {
+    font-family: serif;
+    font-weight: bold;
+    display: block;
+  }
+
+  .button-group {
+    margin: 70px 0 40px;
+
+    button {
+      border: none;
+      background: none;
+      font-family: serif;
+      font-size: 1rem;
+      margin-right: 50px;
+      text-transform: uppercase;
+      margin-bottom: 20px;
+    }
+  }
+  .grid {
+    .our-project {
+      cursor: pointer;
+      @media (max-width: 768px) {
+      }
+      .img{
+        a:hover img{
+          box-shadow: $box-shadow;
+          filter: brightness(1.1);
+          -webkit-filter: brightness(1.1);
+}
+      }
+      .title {
+        h4 {
+          font-weight: bold;
+          font-family: serif;
+          margin: 15px 0 0;
+        }
+        span{
+          color: $text-color;
+          margin-bottom: 10px;
+        }
+      }
+    }
+  }
+}

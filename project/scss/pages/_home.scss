@@ -1,0 +1,58 @@
+section.home {
+  background-image: url(../img/banner/home-banner.png);
+  background-repeat: no-repeat;
+  background-position: 0% 50%;
+  background-size: cover;
+
+  .site-title {
+    padding-top: 20%;
+    font-family: serif;
+
+    h3 {
+      font-size: 2.9rem;
+
+      &::after {
+        content: "";
+        height: 2px;
+        width: 18vw;
+        background: #000;
+        display: inline-block;
+        margin-left: 3%;
+        transform: translateY(-10px);
+        -webkit-transform: translateY(-10px);
+        -moz-transform: translateY(-10px);
+        -ms-transform: translateY(-10px);
+        -o-transform: translateY(-10px);
+      }
+    }
+
+    h1 {
+      font-weight: bold;
+      font-size: 4.6rem;
+    }
+
+    h4 {
+      font-weight: bold;
+    }
+
+    .site-button {
+      a {
+        @extend %button ;
+
+        &:first-child {
+          background: $main-color2;
+          color: #fff;
+
+          &:hover {
+            background: #fff;
+            color: #000;
+          }
+        }
+      }
+    }
+  }
+
+  .banner-img {
+    padding-top: 15%;
+  }
+}

@@ -1,0 +1,32 @@
+section.about {
+  margin-top: 50px;
+  .text-left {
+    margin: 45px 0 45px 10px;
+
+    h2 {
+      font-weight: 500;
+      font-family: serif;
+      font-size: 5rem;
+      letter-spacing: 21px;
+      font-weight: bold;
+      margin-bottom: 40px;
+    }
+
+    p {
+      color: $text-color;
+      font-size: 1.1rem;
+      width: 91%;
+    }
+
+    a {
+      @extend %button;
+      background: $main-color2;
+      color: #fff;
+
+      &:hover {
+        background: #fff;
+        color: #000;
+      }
+    }
+  }
+}

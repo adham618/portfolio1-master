@@ -1,0 +1,37 @@
+.navbar {
+  box-shadow: $box-shadow;
+  position: fixed;
+  width: 100%;
+  background-color: $background-color;
+  z-index: 99999;
+  margin-bottom: 200px;
+  img{
+    margin-bottom: 3px;
+  }
+
+  .navbar-nav {
+    margin-left: 25px;
+    @media only screen and (max-width: 992px){
+      margin: 23px;
+      }
+
+    .nav-link {
+      margin-right: 25px;
+      color: $title-color;
+      font-size: .85rem;
+      font-family: serif;
+      font-weight: 500;
+
+      &:hover {
+        color: $main-color;
+      }
+    }
+  }
+}
+
+.navbar-light .navbar-nav .active>.nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show>.nav-link {
+  color: $main-color !important;
+}

@@ -1,0 +1,32 @@
+footer {
+  background: url(../img/footer-bg.png) no-repeat;
+  padding: 5rem 0 2rem;
+  font-family: serif;
+
+  .follow {
+    h2 {
+      font-size: 1.4rem;
+      margin: 30px;
+    }
+  }
+
+  .links {
+    a {
+      padding-right: 50px;
+      margin-bottom: 30px;
+      color: #E7E3EA;
+      font-size: 1.4rem;
+
+      &:hover {
+        color: #4458DC;
+      }
+    }
+  }
+  .copy{
+    p{
+      color: $text-color;
+      padding: 0 50px;
+      line-height: 1.7;
+    }
+  }
+}
